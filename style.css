@@ -1,0 +1,68 @@
+.app{
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: rgb(158, 155, 152);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 4px rgba(0,0,0,.6);
+}
+
+body{
+    background-image: url(images/bg3.jpg);
+}
+
+.grades{
+    background-color: rgb(72, 79, 77);
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 3px;
+    margin: 10px;
+}
+.heading{
+    background-color: rgba(225, 227, 230,.4);
+    padding: 1px;
+    text-align: center;
+    font-family: arial;
+}
+
+#btn, .rfs{
+    padding: 4px;
+    border-radius: 10px;
+    height: 26px;
+    width: 70px;
+    border: none;
+    margin: 1px;
+    background-color: rgb(140, 160, 147);
+    color: rgb(247, 250, 250);
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ;
+}
+
+#btn:hover, .rfs:hover{
+    color: black;
+    background-color: rgb(189, 203, 199);
+}
+
+.result{
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(160, 146, 130);
+}
+
+a{
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 3px;
+}
+
+.courseInfo{
+    margin: 6px;
+}
+
+.rp_info{
+    display: grid;
+    grid-template-columns: auto auto;
+}
